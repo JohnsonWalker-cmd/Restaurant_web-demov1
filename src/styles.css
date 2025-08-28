@@ -4,4 +4,7 @@
   --shadow-custom: 0 5px 18px 0 rgba(51, 51, 51, 0.10);
   --border-width-0_5: 0.5px;
   --color-border-custom: rgba(51, 51, 51, 0.50);
+  --font-Road : " Road Rage" , sans-serif;
+  --font-playFair : "Playfair Display" , serif ;
+  --font-poppins : "Poppins" , sans-serif;
 }
