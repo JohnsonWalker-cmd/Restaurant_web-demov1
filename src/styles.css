@@ -8,3 +8,17 @@
   --font-playFair : "Playfair Display" , serif ;
   --font-poppins : "Poppins" , sans-serif;
 }
+@layer components {
+  .form-input{
+    @apply md:w-[334px] border rounded-[4px] border-[#33333333] md:py-[16px] md:px-[20px] py-[14px] px-[10px];
+  }
+  .textarea-input {
+      @apply w-full border border-[#33333333] py-[20px] px-[15px] rounded-[4px];
+  }
+  .bookTable-style {
+    @apply border-[1px] py-[16px] px-[30px] border-[#E27D60] rounded-[8px] text-[24px] font-medium text-[#E27D60] hidden md:flex font-playFair;
+  }
+  .nav-link {
+    @apply text-[#FAF3E0] font-playFair md:text-[24px] font-semibold text-[16px] ;
+  }
+}

@@ -43,7 +43,7 @@
         </li>
       </ul>
     </nav>
-    <button class="border-[1px] py-[16px] px-[30px] border-[#E27D60] rounded-[8px] text-[24px] font-medium text-[#E27D60] hidden md:flex font-playFair">
+    <button class="bookTable-style">
       Book Table
     </button>
     <div class="flex md:hidden" id="harmburger-menu">
@@ -92,6 +92,7 @@
       <div class="md:col-span-2">
         <img src="./assets/images/grid-img-4.png" alt="" class="object-cover w-full h-full">
       </div>
+      
     </div>
   </section>
   <section class="flex flex-col md:mx-[60px] mx-[10px] md:mb-[70px]">
@@ -243,11 +244,62 @@
     </div>
   </section>
 
-  <section class="flex md:justify-center items-center flex-col">
-    <h2>Book Your Table</h2>
-    <p>Alternatively, dial +1 (212) 555-1212 or complete the form.</p>
+  <section class="flex md:justify-center md:items-center flex-col md:mb-10 mb-10 ">
+    <h2 class="font-playFair mb-[5px] md:text-[60px] text-[30px] text-center font-semibold text-[#333]">Book Your Table</h2>
+    <p class="font-poppins text-[#333] text-center md:text-[18px] font-medium text-[16px]">Alternatively, dial +1 (212) 555-1212 or complete the form.</p>
+    <form action="" class="mt-5 flex md:flex-col gap-2 md:mb-5 flex-col">
+      <div class="flex gap-2 flex-col md:flex-row px-4">
+        <input  type="text" id="name" placeholder="Name" class="form-input"/>
+        <input  type="text" id="phone-number" placeholder="Phone Number" class="form-input"/>
+      </div>
+      <div class="flex gap-2 flex-col md:flex-row px-4">
+        <input type="email" name="email" id="Email" placeholder="Email*" class="form-input">
+        <input type="date" name="" id="Date" class="form-input" placeholder="Date*">
+      </div>
+      <div class="flex gap-2 flex-col md:flex-row px-4">
+        <input type="time" class="form-input" placeholder="selectTime">
+        <input type="number" class="form-input" placeholder="Number of seats*">
+      </div>
+      <div class="flex px-4">
+        <textarea name="" id="" placeholder="message..." class="textarea-input"></textarea>
+      </div>
+    </form>
+    <button class="bookTable-style">Book Table</button>
   </section>
   </main>
+  <footer class="bg-[#333] md:px-10 flex md:pt-5 flex-col px-6 py-7">
+    <div class="flex md:gap-[335px] flex-col gap-5">
+    
+    <div class=" flex flex-col md:gap-5 gap-2">
+      <h3 class="text-[#FAF3E0] md:text-[62px]  text-[32px] font-medium font-Road">Eatery</h3>
+      <p class="font-poppins md:text-[20px] text-[16px]font-medium text-[#ffffffd9]">Unforgettable Culinary Experiences Await at Heaven Palace</p>
+      <button class="border border-[#E27D60] rounded-[8px] px-[20px] py-[14px] md:px-[30px] md:py-[16px] font-playFair text-[#E27D60] text-[16px] md:text-[24px] font-semibold">Make a Reservation</button>
+    </div>
+    <div>
+      <h3 class="font-playFair text-[#FAF3E0] text-[30px] md:text-[42px] font-medium">Pages</h3>
+      <ul class="flex flex-col gap-2 md:gap-5">
+        <li><a href="#" class="nav-link">About</a></li>
+        <li><a href="#" class="nav-link">Menu</a></li>
+        <li><a href="#" class="nav-link">Reservations</a></li>
+        <li><a href="#" class="nav-link">Blog</a></li>
+        <li><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+    <div class="flex flex-col  md:gap-5 gap-2">
+      <div>
+        <h3 class="text-[#FAF3E0] font-playFair text-[30px] md:text-[42px] font-medium">Address</h3>
+        <p class="font-poppins md:text-[16px] text-[14px] font-medium text-[#D1D1D1]">782 S Westwood Blvd, Los Angeles, CA 90024</p>
+      </div>
+      <div>
+        <h3 class="text-[#FAF3E0] font-playFair text-[30px] md:text-[42px] font-medium">Hours</h3>
+        <p class="font-poppins md:text-[16px] text-[14px] font-medium text-[#D1D1D1]">Monday - Saturday: 9:00 AM - 12:00 PM </p>
+        <p class="font-poppins md:text-[16px] text-[14px] font-medium text-[#D1D1D1]">Sunday : 6:00 AM - 12:00 PM</p>
+      </div>
+    </div>
+    </div>
+    <div class="bg-[#FAF3E0] h-[0.5px] w-full md:mt-8 md:mb-[10px] my-5"></div>
+    <div class="flex items-center justify-center"><p class="font-poppins md:text-[16px] font-medium text-[#FAF3E0]">2023  <span class="text-[#E27D60]">Eatery</span>, rights reserved</p></div>
+  </footer>
 
   <script src="./index.js"></script>
 </body>
